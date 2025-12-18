@@ -12,7 +12,7 @@ import java.awt.*;
 public class ClientRunning extends JFrame {
 
     private final int PORT = 4869;
-    private final String HOST = "10.61.16.93";
+    private final String HOST = "10.61.16.93";     //这里要改成你电脑的ip地址
     private ClientNetworkManager clientNetworkManager;
     public CardLayout cardLayout;
     public JPanel cardPanel;
@@ -81,3 +81,4 @@ public class ClientRunning extends JFrame {
           new ClientRunning();
   }
 }
+
